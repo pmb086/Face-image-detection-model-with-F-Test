@@ -1,0 +1,38 @@
+********************************************************
+The 11 classes that are used in the data are
+[1, 2, 3, 4, 8, 9, 10, 12, 13, 14, 15]
+********************************************************
+NOTE: Please use task A only while running the program
+
+Enter the task:
+
+a
+
+Task A: 
+ For each class, using the first 20 images for train_data and the remaining 19 images for test.
+                Do classification on the generated data using the four classifers.
+
+Enter input
+balajimohan
+
+BALCJIMOHDN
+Final Accuracy for Task A:
+
+A. KNN (Euclidean) (K=3): 80.861244
+
+Predicted class labels are...
+['L', 'B', 'B', 'B', 'B', 'A', 'B', 'B', 'B', 'C', 'A', 'B', 'B', 'B', 'B', 'B', 'B', 'J', 'B', 'A', 'H', 'A', 'A', 'A', 'H', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'M', 'A', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'C', 'C', 'C', 'C', 'C', 'C', 'L', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'J', 'O', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'I', 'I', 'I', 'I', 'I', 'I', 'J', 'I', 'I', 'I', 'I', 'I', 'I', 'L', 'J', 'I', 'I', 'I', 'I', 'J', 'J', 'M', 'M', 'N', 'M', 'H', 'H', 'H', 'M', 'M', 'M', 'M', 'M', 'A', 'M', 'M', 'H', 'M', 'M', 'H', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'C', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'H', 'H', 'H', 'H', 'H', 'H', 'H', 'H', 'H', 'H', 'H', 'H', 'H', 'H', 'M', 'H', 'H', 'H', 'H', 'B', 'O', 'D', 'D', 'D', 'D', 'A', 'D', 'D', 'O', 'D', 'O', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'H', 'H', 'H', 'N', 'H', 'L', 'N', 'N', 'M', 'N', 'N', 'N', 'H', 'N', 'N', 'N', 'N', 'N', 'N']
+C. Centroid : 76.555024
+
+Predicted class labels are...
+['B', 'H', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'J', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'M', 'N', 'A', 'A', 'A', 'H', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'H', 'H', 'B', 'B', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'L', 'H', 'C', 'C', 'L', 'C', 'C', 'C', 'L', 'L', 'L', 'C', 'C', 'C', 'C', 'C', 'C', 'C', 'L', 'C', 'C', 'J', 'D', 'J', 'D', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'J', 'I', 'I', 'I', 'I', 'I', 'I', 'J', 'I', 'J', 'I', 'A', 'I', 'I', 'L', 'J', 'I', 'I', 'I', 'I', 'J', 'J', 'M', 'M', 'N', 'M', 'D', 'M', 'N', 'M', 'M', 'M', 'M', 'M', 'A', 'M', 'M', 'H', 'M', 'M', 'A', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'C', 'O', 'O', 'O', 'O', 'O', 'O', 'H', 'H', 'H', 'N', 'H', 'H', 'M', 'H', 'H', 'H', 'N', 'H', 'H', 'M', 'M', 'M', 'M', 'H', 'H', 'J', 'D', 'H', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'D', 'H', 'D', 'H', 'D', 'D', 'D', 'H', 'H', 'N', 'N', 'H', 'N', 'N', 'N', 'M', 'N', 'N', 'N', 'H', 'N', 'N', 'N', 'N', 'N', 'N']
+D. SVM : 79.904306 
+
+Predicted class labels are...
+[[0. 0. 0. ... 1. 0. 0.]
+ [0. 0. 1. ... 0. 0. 0.]
+ [0. 0. 0. ... 1. 1. 0.]
+ ...
+ [0. 0. 0. ... 0. 0. 0.]
+ [0. 0. 0. ... 1. 1. 1.]
+ [0. 0. 0. ... 1. 1. 1.]]
